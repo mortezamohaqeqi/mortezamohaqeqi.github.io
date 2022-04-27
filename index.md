@@ -15,23 +15,23 @@ Here goes a list of developed [tools](https://user.it.uu.se/~mormo492/datoor/dat
 This is simple example.
 
 ```markdown
- process f(int out V) {
- 	Repeat {
- 		write 1 on V;	 
- 	}
- }
- process g(int in U; int threshold; int out V) {
-	 int count = 0;       // local variable
-	 Repeat {
-		 read(U);						// read from a channel
-		 count = count + 1;
-		 if count == threshold  
-			 write 1 on V; 		// write to a channel
-			 count = 0;	
-	 }
- }
- int channel X, Y;
- f(X) || g(X, 5, Y);    // concurrent execution
+process f(int out V) {
+    Repeat {
+        write 1 on V;	 
+    }
+}
+process g(int in U; int threshold; int out V) {
+    int count = 0;       // local variable
+        Repeat {
+            read(U);	// read from a channel
+                count = count + 1;
+                if count == threshold  
+                    write 1 on V; 		// write to a channel
+                    count = 0;	
+        }
+}
+int channel X, Y;
+f(X) || g(X, 5, Y);    // concurrent execution
 ```
 
 ### Contact
