@@ -5,7 +5,7 @@ The MIMOS project aims at developing methods and tools to enable deterministic m
 ### Publications
 Here we list the related publications.
 
-- Wang Yi, Morteza Mohaqeqi, Susanne Graf, **A Deterministic Model for the Design and Update of Real-Time**, 2020.
+- Wang Yi, Morteza Mohaqeqi, Susanne Graf, **A Deterministic Model for the Design and Update of Real-Time**, arXiv, 2020.
 
 
 ### Tools
