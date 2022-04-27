@@ -16,7 +16,9 @@ This is simple example.
 
 ```markdown
  process f(int out V) {
-	 Repeat {		 write 1 on V;	 }
+ 	Repeat {
+ 		write 1 on V;	 
+ 	}
  }
  process g(int in U; int threshold; int out V) {
 	 int count = 0;       // local variable
