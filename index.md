@@ -15,29 +15,23 @@ Here goes a list of developed [tools](https://user.it.uu.se/~mormo492/datoor/dat
 This is simple example.
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+ process f(int out V) {
+	 Repeat {		 write 1 on V;	 }
+ }
+ process g(int in U; int threshold; int out V) {
+	 int count = 0;       // local variable
+	 Repeat {
+		 read(U);						// read from a channel
+		 count = count + 1;
+		 if count == threshold  
+			 write 1 on V; 		// write to a channel
+			 count = 0;	
+	 }
+ }
+ int channel X, Y;
+ f(X) || g(X, 5, Y);    // concurrent execution
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### Contact
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mortezamohaqeqi/mortezamohaqeqi.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Uppsala University
