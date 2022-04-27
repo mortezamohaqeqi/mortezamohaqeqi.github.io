@@ -9,9 +9,10 @@ Here we list the related publications.
 ### Tools
 Here goes a list of developed [tools](https://user.it.uu.se/~mormo492/datoor/datoor.htm)
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Examples
+
+This is simple example.
 
 ```markdown
 Syntax highlighted code block
