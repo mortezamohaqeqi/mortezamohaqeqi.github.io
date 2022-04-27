@@ -2,9 +2,12 @@
 
 The MIMOS project aims at developing methods and tools to enable deterministic modeling of real-time systems with predictable timing behaviors, and also  supporting incremental updates after deployment without redesigning the whole system.
 
-You can use the [editor on GitHub](https://github.com/mortezamohaqeqi/mortezamohaqeqi.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+### Publications
+Here we list the related publications.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+### Tools
+Here goes a list of developed [tools](https://user.it.uu.se/~mormo492/datoor/datoor.htm)
 
 ### Markdown
 
